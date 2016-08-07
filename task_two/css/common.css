@@ -1,0 +1,82 @@
+
+.nav{
+  position:relative;
+  margin:0 auto;
+  width:950px;
+  height:88px;
+}
+
+.logo{
+  float:left;
+  margin-top:30px;
+}
+
+.search{
+  float:left;
+  margin-top: 30px;
+  margin-left:28px;
+  padding:0 5px;
+  width:278px;
+  height:32px;
+  border:solid 1px #c1c1c1;
+  outline-style: none;
+  color:#c2c2c2;
+  font-size:12px;
+}
+
+.search-btn{
+  position: absolute;
+  outline-style: none;
+  top: 40px;
+  left:445px;
+}
+
+.menu{
+  float:right;
+}
+
+.menu li{
+  float:left;
+  margin-left:18px;
+  line-height: 88px;
+  display:inline;
+  font-size:20px;
+  font-family:"微软雅黑";
+  font-weight: bold;
+}
+
+.menu a{
+  text-decoration:none;
+}
+
+.menu-a1{
+  color:#584029;
+}
+
+.menu-a2{
+  color:#278dce;
+}
+
+.menu-a3{
+  color:#f37f00;
+}
+
+.menu-a4{
+  color:#0f959d;
+}
+
+.menu-a5{
+  color:#e85205;
+}
+
+.menu-a6{
+  color:#9bd6c5;
+}
+
+.menu-a7{
+  color:#db5140;
+}
+
+.menu-a8{
+  color:#529200;
+}
