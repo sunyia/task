@@ -169,7 +169,6 @@
 	margin:0 0 12px 35px;
 	width:519px;
 	height:11px;
-	background-image:
 }
 
 .container-btn1{
@@ -630,4 +629,86 @@
 
 .loading:hover{
 	background:#f3f3f3;
+}
+
+.content-3{
+	float:left;
+	margin-top:3px;
+	width:590px;
+	height:982px;
+	background:#666;
+}
+
+.hot-3{
+	padding-bottom: 15px;
+	border-bottom:solid 1px #eaeaea;
+	margin-bottom:18px;
+	font-size:15px;
+	color:#111;
+}
+
+.content3-scroll{
+	margin-bottom: 36px;
+	height: 240px;
+}
+
+.content3-banner{
+	float: left;
+	width:350px;
+	height: 240px
+	background:#369;
+}
+
+.content3-text{
+	float:right;
+	padding: 54px 28px 0px 28px;
+	width: 180px;
+	height: 186px;
+}
+
+.content3-scroll-h3{
+	height: 72px;
+	font-size:16px;
+}
+
+.content3-scroll-h3 a{
+	color:#111;
+}
+
+.content3-scroll-p{
+	line-height: 1.5em;
+	font-size:10px;
+	color:#999;
+}
+
+.content3-generalize{
+	float:right;
+	margin:36px 12px 12px 0;
+	font-size:12px;
+	color:#ccc;
+}
+
+.content3-ul{
+	float:left;
+	margin-top: 3px;
+	width: 590px;
+}
+
+.hot-4{
+	padding-bottom: 15px;
+	border-bottom:solid 1px #eaeaea;
+	margin-bottom:18px;
+	font-size:14px;
+	color:#111;
+}
+
+.content3-ul span{
+	margin-left:16px;
+	font-size:12px;
+	color:#37e;
+}
+
+.content3-ul span:hover{
+	color:#fff;
+	background:#37e;
 }
