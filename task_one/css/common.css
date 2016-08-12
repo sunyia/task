@@ -71,11 +71,11 @@
 }
 
 .main{
+	position:relative;
 	margin:0 auto;
 	margin-top:40px;
 	width:950px;
-	height:2000px;
-	background:#edf2f7;
+	height:3000px;
 }
 
 .content-1{
@@ -636,7 +636,6 @@
 	margin-top:3px;
 	width:590px;
 	height:982px;
-	background:#666;
 }
 
 .hot-3{
@@ -656,7 +655,6 @@
 	float: left;
 	width:350px;
 	height: 240px
-	background:#369;
 }
 
 .content3-text{
@@ -666,12 +664,12 @@
 	height: 186px;
 }
 
-.content3-scroll-h3{
+.content3-scroll-h2{
 	height: 72px;
 	font-size:16px;
 }
 
-.content3-scroll-h3 a{
+.content3-scroll-h2 a{
 	color:#111;
 }
 
@@ -688,12 +686,6 @@
 	color:#ccc;
 }
 
-.content3-ul{
-	float:left;
-	margin-top: 3px;
-	width: 590px;
-}
-
 .hot-4{
 	padding-bottom: 15px;
 	border-bottom:solid 1px #eaeaea;
@@ -702,13 +694,259 @@
 	color:#111;
 }
 
-.content3-ul span{
+.content3-chunk-h2 span{
 	margin-left:16px;
 	font-size:12px;
 	color:#37e;
 }
 
-.content3-ul span:hover{
+.content3-chunk-h2 span:hover{
+	color:#fff;
 	color:#fff;
 	background:#37e;
+}
+
+.content3-chunk{
+	margin-bottom: 36px;
+	width: 100%;
+	height: 602px;
+}
+
+.content3-chunk a:hover{
+	color:#fff;
+	background:#37a;
+}
+
+.content3-chunk-1{
+	padding-bottom: 26px;
+	margin-bottom: 24px;
+	border-bottom:solid 1px #eaeaea;
+	width: 100%;
+	height: 106px;
+}
+
+.content3-chunk1-img1{
+	float:left;
+	margin-right: 15px;
+	width: 68px;
+	height: 100%
+}
+
+.content3-chunk-1 h3{
+	float:left;
+	padding:6px 0 15px 0;
+	font-size:14px;
+	color:#37a;
+}
+
+.content3-chunk1-width{
+	float:left;
+	width:504px;
+}
+
+.content3-chunk1-a{
+	float:left;
+	margin:0 4px 11px 0;
+	font-size:12px;
+	color:#666;
+}
+
+.content3-chunk-comments{
+	float:left;
+	margin-right:7px;
+	font-size:12px;
+	color:#666;
+}
+
+.content3-chunk1-p{
+	float:left;
+	line-height:1.3em;
+	width:504px;
+	font-size:12px;
+	color:#111;
+}
+
+.content3-chunk1-p-a{
+	float:right;
+	margin-right:35px;
+	font-size:12px;
+	color:#666;
+}
+
+
+
+
+.content3-chunk-2{
+	padding-bottom: 26px;
+	margin-bottom: 24px;
+	border-bottom:solid 1px #eaeaea;
+	width: 100%;
+	height: 106px;
+}
+
+.content3-chunk2-img1{
+	float:left;
+	margin-right: 15px;
+	width: 68px;
+	height: 100%
+}
+
+.content3-chunk-2 h3{
+	float:left;
+	padding:6px 0 15px 0;
+	font-size:14px;
+	color:#37a;
+}
+
+.content3-chunk2-width{
+	float:left;
+	width:504px;
+}
+
+.content3-chunk2-a{
+	float:left;
+	margin:0 4px 11px 0;
+	font-size:12px;
+	color:#666;
+}
+
+.content3-chunk2-p{
+	float:left;
+	line-height:1.3em;
+	width:504px;
+	font-size:12px;
+	color:#111;
+}
+
+.content3-chunk2-p-a{
+	float:right;
+	margin-right:35px;
+	font-size:12px;
+	color:#666;
+}
+
+
+
+
+.content3-chunk-3{
+	padding-bottom: 26px;
+	margin-bottom: 24px;
+	border-bottom:solid 1px #eaeaea;
+	width: 100%;
+	height: 106px;
+}
+
+.content3-chunk3-img3{
+	float:left;
+	margin-right: 15px;
+	width: 68px;
+	height: 100%
+}
+
+.content3-chunk-3 h3{
+	float:left;
+	padding:6px 0 15px 0;
+	font-size:14px;
+	color:#37a;
+}
+.content3-chunk3-width{
+	float:left;
+	width:504px;
+}
+
+.content3-chunk3-a{
+	float:left;
+	margin:0 4px 11px 0;
+	font-size:12px;
+	color:#666;
+}
+
+.content3-chunk3-p{
+	float:left;
+	line-height:1.3em;
+	width:504px;
+	font-size:12px;
+	color:#111;
+}
+
+.content3-chunk3-p-a{
+	float:right;
+	margin-right:35px;
+	font-size:12px;
+	color:#666;
+}
+
+
+
+
+.content3-chunk-4{
+	padding-bottom: 26px;
+	margin-bottom: 24px;
+	width: 100%;
+	height: 106px;
+}
+
+.content3-chunk4-img4{
+	float:left;
+	margin-right: 15px;
+	width: 68px;
+	height: 100%
+}
+
+.content3-chunk-4 h3{
+	float:left;
+	padding:6px 0 15px 0;
+	font-size:14px;
+	color:#37a;
+}
+
+.content3-chunk4-width{
+	float:left;
+	width:504px;
+}
+
+.content3-chunk4-a{
+	float:left;
+	margin:0 4px 11px 0;
+	font-size:12px;
+	color:#666;
+}
+
+.content3-chunk4-p{
+	float:left;
+	line-height:1.3em;
+	width:504px;
+	font-size:12px;
+	color:#111;
+}
+
+.content3-chunk4-p-a{
+	float:right;
+	margin-right:35px;
+	font-size:12px;
+	color:#666;
+}
+
+.banner img{
+	margin:0 auto;
+	padding: 36px 0 65px 0;
+	border-bottom:dotted 1px #ddd;
+}
+
+.footer{
+	margin:0 auto;
+	line-height:31px;
+	width: 950px;
+	font-size:12px;
+	height: 31px;
+	color:#a599b2;
+}
+
+.r-container{
+	position:absolute;
+	top:0;
+	right:0;
+	width:300px;
+	height: 1000px;
+	background:#666;
 }
