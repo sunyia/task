@@ -950,3 +950,20 @@
 	height: 1000px;
 	background:#666;
 }
+
+.footer-nav{
+	float:right;
+	margin:0 auto;
+}
+
+.footer-nav li{
+	float:right;
+	line-height:31px;
+	font-size:12px;
+	color:#27a;
+}
+
+.footer-nav li:hover{
+	color:#fffffc;
+	background:#27a;
+}
