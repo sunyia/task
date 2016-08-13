@@ -1,0 +1,56 @@
+.header{
+	height: 100px;
+	background:#000;
+}
+
+.header-container{
+	margin-top: 30px;
+	margin:0 auto;
+	width:1120px;
+	height: 100px;
+}
+
+.logo{
+	float:left;
+	margin-right:222px;
+	margin-top: 30px;
+}
+
+.header ul li a{
+	float:left;
+	margin-top: 45px;
+	padding-right:40px;
+	font-size:12px;
+	color:#979797;
+}
+
+.header-default-a7{
+	border-right:solid 1px #242424;
+}
+
+.header ul li a:hover{
+	color:#fff;
+}
+
+.landing-btn{
+	margin:37px 0 0 40px;
+	width: 98px;
+	height: 26px;
+	border:solid 1px #242424;
+	color:#ccc;
+	background:#101010;
+}
+
+.nav-container{
+	margin:0 auto;
+	width: 1120px;
+	height: 90px;
+	background:#666;
+}
+
+.nav-container ul li{
+	display: inline;
+	margin:0 20px;
+}
+
+
