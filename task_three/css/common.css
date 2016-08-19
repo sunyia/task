@@ -42,6 +42,7 @@
 }
 
 .main-background{
+	height: 3282px;
 	background:#ededed;
 }
 
@@ -806,18 +807,104 @@
 }
 
 .footer-container{
-	height: 362px;
+	padding-top:60px;
+	height: 302px;
 	background: #fafafa;
 }
 
-.footer-ul{
+.footer-ul-centent{
 	margin:0 auto;
+	margin-bottom:40px;
 	width: 1120px;
+	height: 165px;
+	border-bottom:solid 1px #eee;
+}
+
+.footer-centent ul{
+}
+
+.footer-ul{
+	float:left;
+	width: 172px;
 	height: 100%;
 }
 
-.footer-li-title{
-	font-size:18px;
+.footer-ul-li-title{
 	color:#424242;
 }
 
+.footer-ul li{
+	font-size:12px;
+}
+
+.footer-ul li a{
+	margin-bottom: 14px;
+	color:#757575;
+}
+
+.footer-ul li a:hover{
+	color:#84a3e3;
+}
+
+.rooter-consulting-btn{
+	float: right;
+	border-radius: 4px;
+	width: 116px;
+	height: 34px;
+	line-height: 34px;
+	font-size:15px;
+	color:#fff;
+	background:#98bbf0;
+}
+
+.rooter-consulting-btn-question{
+	float:left;
+	margin:7px 7px 7px 14px;
+	border-radius:10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color:#98bbf0;
+	background: #fefefe;
+}
+
+.footer-contact-number{
+	float:right;
+	margin:11px 0 15px 0;
+	font-size:25px;
+	color:#424242;
+}
+
+.footer-dates-msg{
+	float:right;
+	font-size:12px;
+	color:#bdbdbd;
+}
+
+.footer-copyright{
+	margin:0 auto;
+	width: 1120px;
+	height:96px;
+	font-size:11px;
+	color:#757575;
+}
+
+.footer-copyright p{
+	float:left;
+}
+
+.footer-copyright a{
+	float:left;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left:solid 1px #ccc;
+	color:#84a3e6;
+}
+
+.footer-span{
+	float:left;
+	margin-top: 14px;
+	width: 500px;
+	font-size:11px;
+	color: #bdbdbd;
+}
