@@ -22,9 +22,25 @@
 }
 
 .search-center{
+	position: relative;
 	margin:0 auto;
 	width: 950px;
 	height:74px;
+}
+
+.search{
+	outline-style: none;
+}
+
+.search-btn{
+	position: absolute;
+	right:276px;
+	top:20px;
+	outline-style: none;
+	border-radius:0 2px 2px 0;
+	width: 36px;
+	height: 32px;
+	background: #8e98a0;
 }
 
 .logo{
@@ -948,8 +964,147 @@
 	top:0;
 	right:0;
 	width:300px;
-	height: 1000px;
-	background:#e2f2f2;
+	height: 2000px;
+	background:#999;
+}
+
+.r-container-score{
+	padding-left:32px;
+	margin-bottom:20px;
+	border-radius:2px;
+	height: 45px;
+	background: #f2f7f6;
+}
+
+.r-container-score a{
+	float:left;
+	margin-top:15px;
+	font-size:14px;
+	color:#37a;
+}
+
+.r-container-score a:hover{
+	color:#fff;
+	background: #37a;
+}
+
+.r-container-search{
+	position: relative;
+	padding:12px 0 0 12px;
+	margin-bottom:28px;
+	border-radius:2px;
+	height: 38px;
+	background: #f2f7f6;
+}
+
+.r-container-region-search{
+	padding-left: 5px;
+	width: 60px;
+	height: 24px;
+	outline-style: none;
+	border: solid 1px #ddd;
+	font-size:12px;
+	color:#666;
+}
+
+.r-container-cinema-search{
+	padding-left: 5px;
+	width: 197px;
+	height: 24px;
+	outline-style: none;
+	border: solid 1px #ddd;
+	font-size:12px;
+}
+
+.r-container-search-btn{
+	position: absolute;
+	outline-style: none;
+	top:18px;
+	right:21px;
+}
+
+.r-container-img1{
+	margin-bottom:25px;
+}
+
+.r-container-ul1{
+	padding:19px 0 0 19px;
+	height: 121px;
+	font-size:14px;
+	color:#cedcd9;
+	background: #f2f7f6;
+}
+
+.r-container-ul1 span{
+	float:left;
+	width: 281px;
+	color:#072;
+}
+
+.r-container-ul1 li{
+	float:left;
+	margin:15px 8px 0 0;
+	width: 400px;
+	height: 15px;
+}
+
+.r-container-ul1 i{
+	float:left;
+	margin-right:8px;
+}
+
+.r-container-ul1 a{
+	float:left;
+	color:#37a;
+}
+
+.r-container-ul1 a:hover{
+	color:#fff;
+	background: #37a;
+}
+
+.r-container-h2{
+	padding:23px 0 0px 1px;
+	border-bottom:solid 1px #eaeaea;
+	height: 30px;
+	font-size:15px;
+	color:#111;
+	background:#999;
+}
+
+.r-container-h2 span{
+	margin-left:13px;
+	font-size:12px;
+	color:#37a;
+}
+
+.r-container-h2 span:hover{
+	color:#fff;
+	background: #37a;
+}
+
+.r-container-ul2 li{
+	float:left;
+	padding:16px 0 10px 0;
+	width: 300px;
+	font-size:12px;
+	border-bottom:solid 1px #eaeaea;
+}
+
+.r-container-ul2 span{
+	float:left;
+	margin: 0 7px 0 6px;
+	color:#111;
+}
+
+.r-container-ul2 a{
+	float:left;
+	color:#37a;
+}
+
+.r-container-ul2 a:hover{
+	color:#fff;
+	background:#37a;
 }
 
 .footer-nav{
