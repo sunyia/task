@@ -60,14 +60,19 @@
 }
 
 .nav-container ul li{
-	display: inline;
+	float:left;
+	height: 90px;
 	line-height: 90px;
-	margin:0 20px 0 13px;
+	margin:0 10px 0 10px;
 	font-size:12px;
+	color:#c7c7c7;
+}
+
+.nav-container ul li a{
 	color:#666;
 }
 
-.nav-container ul li:hover{
+.nav-container ul li a:hover{
 	color:#739bea;
 }
 
@@ -644,7 +649,7 @@
 	position: relative;
 	float:left;
 	border:solid 1px #efefef;
-	width: 371px;
+	width: 372px;
 	height: 405px;
 	color:#de4037;
 

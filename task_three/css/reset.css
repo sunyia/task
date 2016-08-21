@@ -29,3 +29,5 @@ img{
 	visibility:hidden;
 	height:0;
 }
+
+*{-webkit-tap-highlight-color:transparent;}
