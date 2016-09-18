@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>幻灯片任务</title>
+
+	<style type="text/css">
+		.center{margin: 0 auto; width: 800px; height: 600px; position: relative;}
+			.btn-center{ position: absolute;  top:550px; left: 46%;}
+			.previous{width: 20px; height: 20px; border-radius: 10px; background:#000; opacity:0.3;}
+			.next{width: 20px; height: 20px; border-radius: 10px; background:#000; opacity: 0.3}
+	</style>
+
+	<script>
+		var imgarr=new Array("img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg","img/9.jpg","img/10.jpg")
+		var index=0;
+		
+		function next(){
+			index++;
+			if(index==imgarr.length){
+				index=0;
+			}
+			document.getElementById("jpg5").src=imgarr[index];
+		}
+
+		function previous(){
+			index--;
+			if(index<0){
+				index=imgarr.length-1;
+			}
+			document.getElementById("jpg5").src=imgarr[index];
+		}
+	</script>
+</head>
+
+<body>
+	<div class="center">
+		<img id="jpg5" src="img/5.jpg"/>
+		<br/>
+		<div class="btn-center">
+		<input class="previous" type="button" onClick="previous()" />
+		<input class="next" type="button" value="" onClick="next()" />
+		</div>
+	</div>
+</body>
+</html>
